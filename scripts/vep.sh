@@ -1,98 +1,98 @@
 VEP=~/Downloads/ensembl-tools-release-76/scripts/variant_effect_predictor/variant_effect_predictor.pl
 
-$VEP --everything -i /home/rgarcia/mt/vcfs/001.vcf.gz -o ../vep/001.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/002.vcf.gz -o ../vep/002.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/003.vcf.gz -o ../vep/003.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/004.vcf.gz -o ../vep/004.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/005.vcf.gz -o ../vep/005.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/006.vcf.gz -o ../vep/006.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/007.vcf.gz -o ../vep/007.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/008.vcf.gz -o ../vep/008.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/009.vcf.gz -o ../vep/009.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/010.vcf.gz -o ../vep/010.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/011.vcf.gz -o ../vep/011.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/012.vcf.gz -o ../vep/012.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/013.vcf.gz -o ../vep/013.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/014.vcf.gz -o ../vep/014.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/015.vcf.gz -o ../vep/015.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/016.vcf.gz -o ../vep/016.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/017.vcf.gz -o ../vep/017.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/018.vcf.gz -o ../vep/018.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/019.vcf.gz -o ../vep/019.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/020.vcf.gz -o ../vep/020.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/021.vcf.gz -o ../vep/021.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/022.vcf.gz -o ../vep/022.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/023.vcf.gz -o ../vep/023.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/024.vcf.gz -o ../vep/024.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/025.vcf.gz -o ../vep/025.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/026.vcf.gz -o ../vep/026.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/027.vcf.gz -o ../vep/027.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/028.vcf.gz -o ../vep/028.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/029.vcf.gz -o ../vep/029.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/030.vcf.gz -o ../vep/030.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/031.vcf.gz -o ../vep/031.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/032.vcf.gz -o ../vep/032.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/033.vcf.gz -o ../vep/033.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/034.vcf.gz -o ../vep/034.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/035.vcf.gz -o ../vep/035.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/036.vcf.gz -o ../vep/036.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/037.vcf.gz -o ../vep/037.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/038.vcf.gz -o ../vep/038.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/039.vcf.gz -o ../vep/039.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/040.vcf.gz -o ../vep/040.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/041.vcf.gz -o ../vep/041.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/042.vcf.gz -o ../vep/042.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/043.vcf.gz -o ../vep/043.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/044.vcf.gz -o ../vep/044.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/045.vcf.gz -o ../vep/045.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/046.vcf.gz -o ../vep/046.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/047.vcf.gz -o ../vep/047.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/048.vcf.gz -o ../vep/048.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/049.vcf.gz -o ../vep/049.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/050.vcf.gz -o ../vep/050.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/051.vcf.gz -o ../vep/051.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/052.vcf.gz -o ../vep/052.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/053.vcf.gz -o ../vep/053.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/054.vcf.gz -o ../vep/054.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/055.vcf.gz -o ../vep/055.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/056.vcf.gz -o ../vep/056.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/057.vcf.gz -o ../vep/057.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/058.vcf.gz -o ../vep/058.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/059.vcf.gz -o ../vep/059.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/060.vcf.gz -o ../vep/060.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/061.vcf.gz -o ../vep/061.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/062.vcf.gz -o ../vep/062.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/063.vcf.gz -o ../vep/063.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/064.vcf.gz -o ../vep/064.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/065.vcf.gz -o ../vep/065.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/066.vcf.gz -o ../vep/066.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/067.vcf.gz -o ../vep/067.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/068.vcf.gz -o ../vep/068.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/069.vcf.gz -o ../vep/069.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/070.vcf.gz -o ../vep/070.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/071.vcf.gz -o ../vep/071.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/072.vcf.gz -o ../vep/072.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/073.vcf.gz -o ../vep/073.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/074.vcf.gz -o ../vep/074.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/075.vcf.gz -o ../vep/075.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/076.vcf.gz -o ../vep/076.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/077.vcf.gz -o ../vep/077.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/078.vcf.gz -o ../vep/078.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/079.vcf.gz -o ../vep/079.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/080.vcf.gz -o ../vep/080.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/081.vcf.gz -o ../vep/081.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/082.vcf.gz -o ../vep/082.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/083.vcf.gz -o ../vep/083.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/084.vcf.gz -o ../vep/084.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/085.vcf.gz -o ../vep/085.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/086.vcf.gz -o ../vep/086.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/087.vcf.gz -o ../vep/087.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/088.vcf.gz -o ../vep/088.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/089.vcf.gz -o ../vep/089.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/090.vcf.gz -o ../vep/090.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/091.vcf.gz -o ../vep/091.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/092.vcf.gz -o ../vep/092.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/093.vcf.gz -o ../vep/093.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/094.vcf.gz -o ../vep/094.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/095.vcf.gz -o ../vep/095.tsv --fork 6 --offline --assembly GRCh37
-$VEP --everything -i /home/rgarcia/mt/vcfs/096.vcf.gz -o ../vep/096.tsv --fork 6 --offline --assembly GRCh37
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/001_chrM.vcf.gz -o ../vep/001.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/002_chrM.vcf.gz -o ../vep/002.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/003_chrM.vcf.gz -o ../vep/003.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/004_chrM.vcf.gz -o ../vep/004.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/005_chrM.vcf.gz -o ../vep/005.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/006_chrM.vcf.gz -o ../vep/006.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/007_chrM.vcf.gz -o ../vep/007.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/008_chrM.vcf.gz -o ../vep/008.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/009_chrM.vcf.gz -o ../vep/009.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/010_chrM.vcf.gz -o ../vep/010.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/011_chrM.vcf.gz -o ../vep/011.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/012_chrM.vcf.gz -o ../vep/012.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/013_chrM.vcf.gz -o ../vep/013.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/014_chrM.vcf.gz -o ../vep/014.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/015_chrM.vcf.gz -o ../vep/015.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/016_chrM.vcf.gz -o ../vep/016.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/017_chrM.vcf.gz -o ../vep/017.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/018_chrM.vcf.gz -o ../vep/018.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/019_chrM.vcf.gz -o ../vep/019.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/020_chrM.vcf.gz -o ../vep/020.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/021_chrM.vcf.gz -o ../vep/021.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/022_chrM.vcf.gz -o ../vep/022.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/023_chrM.vcf.gz -o ../vep/023.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/024_chrM.vcf.gz -o ../vep/024.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/025_chrM.vcf.gz -o ../vep/025.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/026_chrM.vcf.gz -o ../vep/026.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/027_chrM.vcf.gz -o ../vep/027.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/028_chrM.vcf.gz -o ../vep/028.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/029_chrM.vcf.gz -o ../vep/029.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/030_chrM.vcf.gz -o ../vep/030.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/031_chrM.vcf.gz -o ../vep/031.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/032_chrM.vcf.gz -o ../vep/032.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/033_chrM.vcf.gz -o ../vep/033.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/034_chrM.vcf.gz -o ../vep/034.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/035_chrM.vcf.gz -o ../vep/035.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/036_chrM.vcf.gz -o ../vep/036.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/037_chrM.vcf.gz -o ../vep/037.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/038_chrM.vcf.gz -o ../vep/038.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/039_chrM.vcf.gz -o ../vep/039.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/040_chrM.vcf.gz -o ../vep/040.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/041_chrM.vcf.gz -o ../vep/041.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/042_chrM.vcf.gz -o ../vep/042.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/043_chrM.vcf.gz -o ../vep/043.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/044_chrM.vcf.gz -o ../vep/044.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/045_chrM.vcf.gz -o ../vep/045.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/046_chrM.vcf.gz -o ../vep/046.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/047_chrM.vcf.gz -o ../vep/047.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/048_chrM.vcf.gz -o ../vep/048.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/049_chrM.vcf.gz -o ../vep/049.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/050_chrM.vcf.gz -o ../vep/050.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/051_chrM.vcf.gz -o ../vep/051.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/052_chrM.vcf.gz -o ../vep/052.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/053_chrM.vcf.gz -o ../vep/053.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/054_chrM.vcf.gz -o ../vep/054.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/055_chrM.vcf.gz -o ../vep/055.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/056_chrM.vcf.gz -o ../vep/056.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/057_chrM.vcf.gz -o ../vep/057.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/058_chrM.vcf.gz -o ../vep/058.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/059_chrM.vcf.gz -o ../vep/059.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/060_chrM.vcf.gz -o ../vep/060.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/061_chrM.vcf.gz -o ../vep/061.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/062_chrM.vcf.gz -o ../vep/062.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/063_chrM.vcf.gz -o ../vep/063.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/064_chrM.vcf.gz -o ../vep/064.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/065_chrM.vcf.gz -o ../vep/065.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/066_chrM.vcf.gz -o ../vep/066.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/067_chrM.vcf.gz -o ../vep/067.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/068_chrM.vcf.gz -o ../vep/068.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/069_chrM.vcf.gz -o ../vep/069.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/070_chrM.vcf.gz -o ../vep/070.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/071_chrM.vcf.gz -o ../vep/071.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/072_chrM.vcf.gz -o ../vep/072.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/073_chrM.vcf.gz -o ../vep/073.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/074_chrM.vcf.gz -o ../vep/074.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/075_chrM.vcf.gz -o ../vep/075.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/076_chrM.vcf.gz -o ../vep/076.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/077_chrM.vcf.gz -o ../vep/077.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/078_chrM.vcf.gz -o ../vep/078.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/079_chrM.vcf.gz -o ../vep/079.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/080_chrM.vcf.gz -o ../vep/080.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/081_chrM.vcf.gz -o ../vep/081.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/082_chrM.vcf.gz -o ../vep/082.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/083_chrM.vcf.gz -o ../vep/083.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/084_chrM.vcf.gz -o ../vep/084.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/085_chrM.vcf.gz -o ../vep/085.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/086_chrM.vcf.gz -o ../vep/086.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/087_chrM.vcf.gz -o ../vep/087.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/088_chrM.vcf.gz -o ../vep/088.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/089_chrM.vcf.gz -o ../vep/089.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/090_chrM.vcf.gz -o ../vep/090.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/091_chrM.vcf.gz -o ../vep/091.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/092_chrM.vcf.gz -o ../vep/092.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/093_chrM.vcf.gz -o ../vep/093.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/094_chrM.vcf.gz -o ../vep/094.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/095_chrM.vcf.gz -o ../vep/095.json --fork 6 --cache 
+$VEP --check_existing --biotype --symbol --json -i /home/rgarcia/mt/vcfs/096_chrM.vcf.gz -o ../vep/096.json --fork 6 --cache 
