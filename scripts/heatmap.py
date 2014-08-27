@@ -18,7 +18,7 @@ sets = {}
 for path in samples.file_list:
     variants = vcf.Reader( open( path, 'r' ), compressed=True)
 
-    sample   = path.replace('.vcf.gz', '')
+    sample   = path.replace('.vcf.gz', ' ') + samples.ethnicity[path.replace('.vcf.gz', '')]
     sets[sample] = []
     for v in variants:
         if v.is_snp:

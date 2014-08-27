@@ -191,7 +191,7 @@ json_list = ['../vep/001_list.json',
              '../vep/095_list.json',
              '../vep/096_list.json',]
 
-etnia = {
+ethnicity = {
     '001': 'Tzotzil',
     '002': 'Chontal_Tab',
     '003': 'Huave',
