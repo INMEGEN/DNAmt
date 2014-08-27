@@ -19,7 +19,7 @@ sets = {}
 for path in samples.file_list:
     variants = vcf.Reader( open( path, 'r' ), compressed=True)
 
-    sample   = path.replace('.vcf.gz', '')
+    sample   = path.replace('.vcf.gz', ' ') + samples.ethnicity[path.replace('.vcf.gz', '')]
     sets[sample] = []
     for v in variants:
         if v.is_snp:
@@ -49,20 +49,30 @@ for i in keys:
 
 rows = np.array( rows )
 
-# plot dendrograms
-fig = plt.figure(figsize=(15,15))
+
+algorythms = [ 'average',
+               'complete',
+               'ward',
+               'centroid',
+               'single',
+               'weighted',]
 
 
-fig.add_subplot()
-linkage_matrix = linkage(rows,
-                         "centroid")
+for algorythm in algorythms:
+        # plot dendrograms
+        fig = plt.figure(figsize=(15,15))
 
-a = dendrogram(linkage_matrix,
-               color_threshold=1,
-               labels=keys,
-               show_leaf_counts=False,
-               leaf_font_size=7,
-               leaf_rotation=-90.0,
-               orientation='top',
-         )
-plt.savefig('dendrogram_centroid.svg')
+
+        fig.add_subplot()
+        linkage_matrix = linkage(rows, algorythm)
+
+        a = dendrogram(linkage_matrix,
+                       color_threshold=1,
+                       labels=keys,
+                       show_leaf_counts=False,
+                       leaf_font_size=5,
+                       leaf_rotation=0.0,
+                       orientation='left',
+               )
+        plt.savefig('dendrogram_%s.svg' % algorythm)
+        plt.close()
