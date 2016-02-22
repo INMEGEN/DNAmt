@@ -15,7 +15,7 @@ def parse():
     parser.add_argument('files', nargs='+', help='Path to `mapping_quality_across_reference.txt` files.')
     return parser.parse_args()
 
-def plot_quals(filenames):
+def plot_quals(filenames, output):
     quals = {}
     bins = []
     for path in filenames:
@@ -30,8 +30,8 @@ def plot_quals(filenames):
 
     for q in quals:
         plt.plot(bins,quals[q], '-')
-    plt.show()
+    plt.savefig(output)
 
 if __name__ == "__main__":
     args = parse()
-    plot_quals(args.files)
+    plot_quals(args.files, args.output)
